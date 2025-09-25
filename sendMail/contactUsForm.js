@@ -17,7 +17,7 @@ const sendQueryMail = async (data) => {
 
   try {
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      service: "smtp.gmail.com",
       host: "smtp.gmail.com",
       port: 587,
       // port: 465,
