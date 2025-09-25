@@ -47,8 +47,8 @@ const sendRequestInfoEmail = async (data) => {
     });
 
     const mailOptions = {
-      from: `anthonyadewuyi01@gmail.com`,
-      to: [ "info@edgenext.nl", "anthonyadewuyi01@gmail.com","anthonyadewuyi01@gmail.com"],
+      from: `tonyemerald5@gmail.com`,
+      to: [ "info@edgenext.nl", "anthonyadewuyi01@gmail.com","anthonyadewuyi01@gmail.com", "tonyemerald5@gmail.com"],
 
       subject: `📩 Query Submission from ${firstName}`,
       html,
